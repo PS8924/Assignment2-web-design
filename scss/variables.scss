@@ -1,0 +1,30 @@
+.main-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+}
+.left-container, .right-container{
+    padding: 30px;
+    margin: 30px;
+}
+.viewDetail{
+    display: none;
+}
+.viewDetails{
+    margin: 10px;
+    background-color: red;
+    padding: 4px;
+}
+.inputElements{
+    display: block;
+    padding: 5px;
+    margin: 10px;
+}
+li{
+    margin: 20px;
+}
+.additem{
+    display: block;
+}

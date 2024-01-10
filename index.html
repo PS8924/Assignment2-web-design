@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>To-do List app</title>
+    </head>
+    <body>
+        <h1>To-do list</h1>
+        <div class="row">
+            <div class="container">
+                <div class="main-container">
+                    <div class="left-container">
+                        <div id="addNewTaskBtn" onclick="showAddTaskSection()" title="Click here to add task details"
+                        class="addBtn">
+                        <h3>Add New Task</h3>
+                    </div>
+                    <!-- add new task form  -->
+                    <div class="additem">
+                        <input type="text" class="inputElements" id="title" placeholder="Title">
+                        <input type="text" class="inputElements" id="desc" placeholder="Description">
+                        <input type="date" title="Click here to add due date" class="inputElements" id="dueDate"
+                            placeholder="Due Date">
+                        <input type="time" title="Click here to add due time" class="inputElements" id="dueTime"
+                            placeholder="Due Time">
+                        <!-- button to add new task -->
+                        <button onclick="addNewTask()" title="Click here to save task" class="saveBtn">Add Task</div>
+                    </div>
+                    <div class="right-container">
+                        <h3>To do list data</h3>
+                        <ul id="allTask"></ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
